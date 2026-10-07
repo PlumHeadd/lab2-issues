@@ -6,4 +6,4 @@ def total(price):
 
 
 def discount(price, pct):
-    return price * pct / 100
+    return price * (1 - pct / 100)
